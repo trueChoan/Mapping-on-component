@@ -35,7 +35,7 @@ const contacts = [
   isDeletable:true}
 ]
 
-function ContactList () {
+export default function ContactList () {
   return ( 
   <div>
     {contacts.map((contact, index)=>(
@@ -49,5 +49,3 @@ function ContactList () {
   </div>
   )
 }
-
-export default ContactList;
